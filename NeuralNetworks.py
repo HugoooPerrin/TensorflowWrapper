@@ -4,8 +4,7 @@
 
 #---------------------------------------------------------------------------------------------------------------------
 """
-Several implementations of main Neural Networks. All the present algorithms are
-based on the Google Tensorflow architecture.
+The present algorithm is based on the Google Tensorflow architecture.
 
 
 Last update : 24/09/2017
@@ -427,7 +426,7 @@ class NeuralNetworkClassifier(object):
 
 
                 #===============================================
-                # MINI-BATCH CREATION : 
+                # MINI-BATCH : 
                 #===============================================
 
                 if self.batch_size is not None:
@@ -463,7 +462,7 @@ class NeuralNetworkClassifier(object):
 
 
                 #===============================================
-                # FULL BATCH OPTIMIZATION : 
+                # FULL BATCH : 
                 #===============================================
 
                 else:
