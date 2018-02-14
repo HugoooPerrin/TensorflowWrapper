@@ -1,4 +1,4 @@
-# TensorflowWrapper
+# Neural networks experimentation
 
 - Tensorflow wrapper for fast implementation of different architectures when it comes only to fully connected networks
 
